@@ -4,7 +4,7 @@ document.body.appendChild(getSumBtn);
 
 const getSum = () => {
 //Add your code here
-	const totalPrice = items.reduce((sum, item) => sum + item.price, 0);
+	const totalPrice = item.reduce((sum, item) => sum + item.price, 0);
 
   // Display the total price
   alert(`Total Price: $${totalPrice}`);
